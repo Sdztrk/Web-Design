@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/showcase.jpg);
+}
+.header{
+    background-color: #35424A;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    border-bottom:3px solid #A9508B;
+}
+.header>h1{
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
+.header>h1>span{
+    color: #A9508B;
+}
+.navigation{
+    margin-right: 120px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.navigation>ul>li>a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+}
+li{
+    transition: all .1s ease-in-out;
+}
+li:hover{
+    transform: scale(1.6);
+}
+
+#home{
+    color: #A9508B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#home:hover{
+    color: gray;
+}
+#about:hover, #services:hover{
+    color: gray;
+}
+.part1{
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+.part1>h1{
+    font-size: 60px;
+    margin-top: 60px;
+
+}
+.part1>p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.part2{
+    background-color: #35424A;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.part2>h1{
+    color: white;
+}
+.form{
+    margin-right: 250px;
+}
+#email{
+    width: 250px;
+    height: 35px;
+}
+#submit{
+    width: 100px;
+    height: 35px;
+    background-color: #A9508B;
+    color: white;
+}
+.part2>h1{
+    position: absolute;
+    left: 50px;
+    top: 450px;
+}
+.part3{
+    background-color: #F4F4F4;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    border-bottom:3px solid #A9508B;
+    padding: 30px;
+}
+.html5{
+    text-align: center;
+    width: 30vw;
+}
+.html5>img{
+    width: 100px;
+}
+.html5>h3{
+    padding: 15px;
+}
+.footer{
+    text-align: center;
+    background-color: #FFFAF0;
+    width: 100%;
+    height: 16vh;
+    padding: 30px;
+    border-bottom: 3px solid #A9508B;
+}

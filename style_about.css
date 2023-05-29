@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/showcase.jpg);
+}
+.header{
+    background-color: #35424A;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    border-bottom:3px solid #A9508B;
+}
+.header>h1{
+    position: absolute;
+    left: 100px;
+    top: 25px;
+}
+.header>h1>span{
+    color: #A9508B;
+}
+.navigation{
+    margin-right: 120px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    transition: all .1s ease-in-out;
+}
+li:hover{
+    transform: scale(1.6);
+}
+.navigation>ul>li>a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 15px;
+}
+
+#about{
+    color: #A9508B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#about:hover{
+    color: gray;
+}
+ #services:hover,#home:hover{
+    color: gray;
+    font-weight: bold;
+}
+.part2{
+    background-color: #35424A;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.part2>h1{
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+
+}
+.form{
+    margin-right: 250px;
+}
+#email{
+    width: 250px;
+    height: 35px;
+}
+#submit{
+    width: 100px;
+    height: 35px;
+    background-color: #A9508B;
+    color: white;
+}
+.part3{
+    background-color: #F4F4F4;
+    width: 100%;
+    height: 65vh;
+    border-bottom:3px solid #A9508B;
+    display: flex;
+
+}
+.text1{
+    width: 60vw;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.text1>h3{
+    margin:25px 10px 20px 100px;
+}
+.text1>p{
+    margin:0px 10px 10px 100px;
+}
+.second_p{
+    background-color: #35424A;
+    color: white;
+    height: 120px;
+    padding: 10px 10px 0px 10px ;
+}
+
+.text2{
+    width: 40vw;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.text2h3p{
+    margin: 25px 25px 25px 125px;
+    width: 400px;
+    height: 200px;
+    background-color: #35424A ;
+    color: white;
+}
+.text2h3p>h3, .text2h3p>p{
+    padding: 15px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #FFFAF0;
+    width: 100%;
+    height: 15vh;
+    padding: 30px;
+    border-bottom:3px solid #A9508B;
+}
+
+ @media screen and (max-width: 950px) {
+    .header {
+        background-color: lightgreen;
+        /* display: flex;
+        flex-wrap: wrap; */
+        height: 20vh;
+        }
+    .part3{
+        height: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .second_p{
+        height: 600px;
+    }
+  }
